@@ -43,7 +43,8 @@ public class SynoFileDuplicateRemover {
 			CommandLine commandLine = new DefaultParser().parse(options, args);
 			synoDuplicateListCsvFile = commandLine.getOptionValue("csv_file");
 			if (commandLine.getOptions().length == 2) {
-				if ("dry_run".equals(commandLine.getOptions()[0].getArgName()) || "dry_run".equals(commandLine.getOptions()[1].getArgName())) {
+				if ("dry_run".equals(commandLine.getOptions()[0].getArgName()) || 
+					"dry_run".equals(commandLine.getOptions()[1].getArgName())) {
 					dryRun = true;
 				}
 			}
