@@ -6,6 +6,9 @@ Features
 - Test run possible with -dry_run option
 - Compatible with Synology DSM 213j+
 
+Screenshots
+----------------------------
+
 Usage
 ----------------------------
 java -jar SynoFileDuplicateRemover.jar -csv_file [file.csv] -dry_run
@@ -16,3 +19,5 @@ TODO
 ----------------------------
 - [ ] Tests with French characters
 - [ ] Add csv file
+- [ ] Add screenshots
+
