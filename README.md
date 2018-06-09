@@ -1,3 +1,5 @@
+<img src="https://travis-ci.org/aquenneville/syno-file-duplicate-remover.svg?branch=master"/>
+
 # syno-file-duplicate-remover
 
 Requirements
