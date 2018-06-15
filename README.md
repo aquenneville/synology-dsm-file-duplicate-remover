@@ -2,7 +2,7 @@
 
 <img src="https://travis-ci.org/aquenneville/syno-file-duplicate-remover.svg?branch=master"/>
 
-I created this utility to delete the files duplicate in one go by keeping the first version found because the dsm only allows to delete each individual file one by one. I added the possibility to do a dry-run no deletion before actually running the deletion. No body likes to delete the wrong files :)
+I created this utility to delete the files duplicate in one go by keeping the first version found because the dsm only allowed to delete each individual file one by one. I added the possibility to do a dry-run (no deletion) before actually running the real deletion. No body likes to delete the wrong files :)
 
 # Enabling the duplicate file reporting
 
@@ -13,8 +13,15 @@ I created this utility to delete the files duplicate in one go by keeping the fi
 - Click on the report task, and then click view complete report
 - Finally, you should be in the Disk Usage Report|Duplicate File Candidates report a csv download link should be displayed on the right.
 
-# Installation
+# Content of the csv
+Group,Shared Folder,File,Size,Modified time
+1,photo,/volume1/photos/album1/1.png,300 Mb,2018-03-27 22:30
+1,photo,/root/1.png,300 Mb,2018-01-01 19:00
+1,photo,/mnt/1.png,300 Mb,2018-01-01 19:00
 
+It's true, I could have sorted the duplicate files by "shared folder" or "modified time" before deleting, this could be an improvement for later.
+
+# Installation
 Git clone on your Dsm, and build the jar with maven in /root
 Inside the Dsm run the reporting and download the csv in the location of this jar.
 
