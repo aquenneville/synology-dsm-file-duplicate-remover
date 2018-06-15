@@ -12,7 +12,7 @@ I created this utility to delete the files duplicate in one go by keeping the fi
 - Define the frequency and tick generate now.
 - Click on the report task, and then click view complete report
 - Finally, you should be in the Disk Usage Report|Duplicate File Candidates report a csv download link should be displayed on the right.
-- The link looks like : https://ip:port/dar/duplicates/YYYY-MM-DD_NN-NN-NN/report.html?SynoToken=XXXXXX
+- The dsm download link should look like : https://ip:port/dar/duplicates/YYYY-MM-DD_NN-NN-NN/report.html?SynoToken=XXXXXX
 
 # Content of the csv
 Group,Shared Folder,File,Size,Modified time
