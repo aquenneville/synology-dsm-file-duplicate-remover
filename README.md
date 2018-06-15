@@ -1,6 +1,7 @@
 # synology-dsm-file-duplicate-remover
 
 <img src="https://travis-ci.org/aquenneville/syno-file-duplicate-remover.svg?branch=master"/>
+Duplicate file remover for the Synology DSM (v.5.x)
 
 Requirements
 -----------------------------
