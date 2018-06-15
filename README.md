@@ -1,9 +1,8 @@
 # synology-dsm-file-duplicate-remover
 
 <img src="https://travis-ci.org/aquenneville/syno-file-duplicate-remover.svg?branch=master"/>
-The reason for this project was I could not delete all the duplicate files in my report in one click. 
 
-I created this utility to delete the files duplicate by keeping the first version found. 
+I created this utility to delete the files duplicate in one go by keeping the first version found because the dsm only allows to delete each individual file one by one. I added the possibility to do a dry-run no deletion before actually running the deletion. No body likes to delete the wrong files :)
 
 # Enabling the duplicate file reporting
 
