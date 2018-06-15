@@ -12,17 +12,22 @@ I created this utility to delete the files duplicate in one go by keeping the fi
 - Define the frequency and tick generate now.
 - Click on the report task, and then click view complete report
 - Finally, you should be in the Disk Usage Report|Duplicate File Candidates report a csv download link should be displayed on the right.
+- The link looks like : https://ip:port/dar/duplicates/YYYY-MM-DD_NN-NN-NN/report.html?SynoToken=XXXXXX
 
 # Content of the csv
 Group,Shared Folder,File,Size,Modified time
+
 1,photo,/volume1/photos/album1/1.png,300 Mb,2018-03-27 22:30
+
 1,photo,/root/1.png,300 Mb,2018-01-01 19:00
+
 1,photo,/mnt/1.png,300 Mb,2018-01-01 19:00
 
 It's true, I could have sorted the duplicate files by "shared folder" or "modified time" before deleting, this could be an improvement for later.
 
 # Installation
-Git clone on your Dsm, and build the jar with maven in /root
+Git clone on your Dsm, and build the jar with maven in /root.
+
 Inside the Dsm run the reporting and download the csv in the location of this jar.
 
 Requirements
